@@ -1,0 +1,42 @@
+body {
+    background-color: aqua;
+    color: blue;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+    font-size: 65px;
+    line-height: 58px;
+    color: orangered;
+}
+
+h2 {
+    font-weight: 800;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: blue;
+    border-style: solid;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+a{
+    color: fuchsia;
+    font-weight: bold;
+    transition: all 0.5s;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: gold;
+}
+
+.indent {
+    text-indent: 32px;
+}
+
+p {text-indent: 60px;}
